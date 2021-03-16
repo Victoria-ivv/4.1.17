@@ -10,25 +10,32 @@ class MainClass
 
 		switch (color)
 		{
-			case "red":
+			case "red": //если выберем красный
 				Console.BackgroundColor = ConsoleColor.Red;
 				Console.ForegroundColor = ConsoleColor.Black;
 
 				Console.WriteLine("Your color is red!");
 				break;
 
-			case "green":
+			case "green": //если выберем зеленый
 				Console.BackgroundColor = ConsoleColor.Green;
 				Console.ForegroundColor = ConsoleColor.Black;
 
 				Console.WriteLine("Your color is green!");
 				break;
 
-			default:
+			case "cyan": //если выберем голубой
 				Console.BackgroundColor = ConsoleColor.Cyan;
 				Console.ForegroundColor = ConsoleColor.Black;
 
 				Console.WriteLine("Your color is cyan!");
+				break;
+
+			default: //другой цвет
+				Console.BackgroundColor = ConsoleColor.Yellow;
+				Console.ForegroundColor = ConsoleColor.Red;
+
+				Console.WriteLine("Your color is yellow!");
 				break;
 		}
 	}
