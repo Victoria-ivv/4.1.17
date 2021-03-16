@@ -25,17 +25,11 @@ class MainClass
 				break;
 
 			case "cyan": //если выберем голубой
+			case "cyan":
 				Console.BackgroundColor = ConsoleColor.Cyan;
 				Console.ForegroundColor = ConsoleColor.Black;
 
 				Console.WriteLine("Your color is cyan!");
-				break;
-
-			default: //другой цвет
-				Console.BackgroundColor = ConsoleColor.Yellow;
-				Console.ForegroundColor = ConsoleColor.Red;
-
-				Console.WriteLine("Your color is yellow!");
 				break;
 		}
 	}
