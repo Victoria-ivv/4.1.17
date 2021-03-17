@@ -4,17 +4,16 @@ class MainClass
 {
 	public static void Main(string[] args)
 	{
-		Console.WriteLine("Цикл while");
-		int k = 0; //для цикла while k
+		Console.WriteLine("Цикл while do");
+		int t = 0;
 		//Console.WriteLine("Напишите свой любимый цвет на английском с маленькой буквы");
 		//var color = Console.ReadLine();
 		//for (int i=5; i >0; i-- ) //обратный цикл for
 		//for (int i=5; i >0; ) //бесконечный цикл for
 		//while (true) //бесконечный цикл while
-		//do // do while
-		while (k<3)//для цикла while k
+		do // do while & do while t
 		{
-			Console.WriteLine(k);
+			Console.WriteLine(t);//k или ted
 			Console.WriteLine("Напишите свой любимый цвет на английском с маленькой буквы");
 			//Console.WriteLine("Iteration{0}", i); //для цикла for
 			switch (Console.ReadLine())
@@ -47,8 +46,10 @@ class MainClass
 					Console.WriteLine("Your color is yellow!");
 					break;
 			}
-			k++; //для цикла while k
-		} //while (true); // do while 
-
+			//k++; //switch (Console.ReadLine())
+			
+			t++;
+		} while (t < 0);//(true); // do while 
+		
 	}
 }
