@@ -7,7 +7,8 @@ class MainClass
 		Console.WriteLine("Напишите свой любимый цвет на английском с маленькой буквы");
 
 		//var color = Console.ReadLine();
-		for (int i=1; i<5; i++)
+		
+		for (int i=5; i >0; i--)
 		{
 			Console.WriteLine("Iteration{0}", i);
 			switch (Console.ReadLine())
@@ -40,6 +41,8 @@ class MainClass
 					Console.WriteLine("Your color is yellow!");
 					break;
 			}
+			
 		}
+		
 	}
 }
