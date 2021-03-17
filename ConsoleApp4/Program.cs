@@ -7,8 +7,8 @@ class MainClass
 		Console.WriteLine("Напишите свой любимый цвет на английском с маленькой буквы");
 
 		//var color = Console.ReadLine();
-		
-		for (int i=5; i >0; i--)
+		//for (int i=5; i >0; i-- ) //обратный цикл
+		for (int i=5; i >0; ) //бесконечный цикл
 		{
 			Console.WriteLine("Iteration{0}", i);
 			switch (Console.ReadLine())
