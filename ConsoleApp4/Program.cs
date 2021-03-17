@@ -7,10 +7,11 @@ class MainClass
 		Console.WriteLine("Напишите свой любимый цвет на английском с маленькой буквы");
 
 		//var color = Console.ReadLine();
-		//for (int i=5; i >0; i-- ) //обратный цикл
-		for (int i=5; i >0; ) //бесконечный цикл
+		//for (int i=5; i >0; i-- ) //обратный цикл for
+		//for (int i=5; i >0; ) //бесконечный цикл for
+		while (true) //бесконечный цикл while
 		{
-			Console.WriteLine("Iteration{0}", i);
+			//Console.WriteLine("Iteration{0}", i); //для цикла for
 			switch (Console.ReadLine())
 			{
 				case "red": //если выберем красный
