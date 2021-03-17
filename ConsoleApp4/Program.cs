@@ -9,7 +9,8 @@ class MainClass
 		//var color = Console.ReadLine();
 		//for (int i=5; i >0; i-- ) //обратный цикл for
 		//for (int i=5; i >0; ) //бесконечный цикл for
-		while (true) //бесконечный цикл while
+		//while (true) //бесконечный цикл while
+		do
 		{
 			//Console.WriteLine("Iteration{0}", i); //для цикла for
 			switch (Console.ReadLine())
@@ -42,8 +43,8 @@ class MainClass
 					Console.WriteLine("Your color is yellow!");
 					break;
 			}
-			
-		}
+
+		} while (true);
 		
 	}
 }
